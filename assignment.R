@@ -159,11 +159,7 @@ iris3 = mutate(iris, Means_of_obs = (Sepal.Length + Sepal.Width + Petal.Length +
 
 View(iris3)
 
-#Filter data for the "versicolor" and get only 'sepel_length' and Sepel _width' columns.( using dplyr package)
-View(select(filter(iris,Species == 'versicolor'), 'sepal_length', 'sepal_width')))
-d %>%select(sepal_length, sepal_width)  %>% filter(iris,Species == 'versicolor') 
 
-View(d)
 
 
 
